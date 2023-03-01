@@ -93,7 +93,7 @@ class TestOfflineScheduler(object):
 
 
 class FakeThread(object):
-    def isAlive(self):
+    def is_alive(self):
         return True
     
     def join(self):
